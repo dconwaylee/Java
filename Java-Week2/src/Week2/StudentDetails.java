@@ -4,12 +4,13 @@ public class StudentDetails {
 
  private String studentName;
  private Integer studentAge;
+ private String headTeacher;
 
  public static void main(String[] args) {
 
  }
 
- public void Student(String name, int age) {
+ public StudentDetails(String name, int age) {
   this.studentName = name;
   this.studentAge = age;
 

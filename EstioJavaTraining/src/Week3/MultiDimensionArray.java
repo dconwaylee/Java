@@ -39,6 +39,7 @@ public class MultiDimensionArray {
       System.out.println(FastNFurious);
       System.out.println(FastNFurious.set(3, "Jessie") + "'s name was wrong on the script");
       System.out.println(FastNFurious.size());
+      System.out.println(FastNFurious.clone());
       //System.out.println(FastNFurious.isEmpty()); // This is causing me errors
 
    }
